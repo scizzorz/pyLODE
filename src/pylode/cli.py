@@ -4,7 +4,7 @@ from os import path
 import shutil
 import requests
 import rdflib
-from makedocco import MakeDocco
+from .makedocco import MakeDocco
 
 
 # used to know what RDF file types rdflib can handle
